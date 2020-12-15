@@ -10,6 +10,7 @@ namespace LOJA.Data.Entities
 
 		public string Name { get; set; }
 
+		[Display(Name = "Price")]
 		[DisplayFormat(DataFormatString = "{0:C2}", ApplyFormatInEditMode = false)]
 		public decimal Price { get; set; }
 
